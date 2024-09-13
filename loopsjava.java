@@ -5,6 +5,8 @@ public class loopsjava{
             melon();
             pera();
             orange();
+            banana();
+            onion();
     }
 
     //for loop
@@ -52,6 +54,27 @@ public class loopsjava{
           i++;
         }
         while (i < 5);
+    }
+
+
+    //break
+    public static void banana(){
+    for (int i = 0; i < 10; i++) {
+        if (i == 4) {
+          break;
+        }
+        System.out.println(i);
+      }
+    }
+
+    //continue
+    public static void onion(){
+        for (int i = 0; i < 10; i++) {
+            if (i == 4) {
+              continue;
+            }
+            System.out.println(i);
+          }
     }
 }
 
