@@ -11,8 +11,10 @@ public class math{
 
            Double c = Math.sqrt(60);
            Double d = Math.sqrt(64);
+           Double e = Math.sqrt(144);
            System.out.println(c);
            System.out.println(d);
+           System.out.println(e);
     }
 }
 
